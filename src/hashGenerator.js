@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 
 const generarHash = async () => {
-    const hashedPassword = await bcrypt.hash('Testoperador2', 10);
+    const hashedPassword = await bcrypt.hash('', 10);
     console.log('Contraseña hasheada:', hashedPassword);
 };
 
